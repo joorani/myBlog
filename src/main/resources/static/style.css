@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+header {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+nav {
+    text-align: center;
+}
+.button {
+    background-color: gray;
+    border:none;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+#list-group {
+    margin: 10px;
+}
+
+.item {
+    list-style: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 400px;
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.container .posts-container {
+    width: 80%;
+}
+
+
